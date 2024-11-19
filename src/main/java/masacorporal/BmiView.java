@@ -1,7 +1,5 @@
 package masacorporal;
 
-import java.util.Scanner;
-
 public class BmiView {
 
     private Scanner scanner = new Scanner(System.in);
@@ -19,7 +17,6 @@ public class BmiView {
 
     public void showResults(double bmi, String clasification){
         System.out.printf("Your BMI is: %.2f\n\n", bmi);
-
-        System.out.println("Your BMI is: " + clasification);
+        System.out.println("Your BMI category is: " + clasification);
     }
 }
